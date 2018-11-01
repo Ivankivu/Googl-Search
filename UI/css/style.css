@@ -32,7 +32,7 @@ body{
 .container > .topbar > ul > li > a{
    color:rgba(68, 67, 67, 0.938);
     text-decoration: none;
-    font-size: 120%;
+    font-size: 100%;
 }
 
 .container > .heading{
@@ -43,8 +43,8 @@ body{
 
 .container > .heading > img{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 300%;
-    margin-top:12%;
+    font-size: 250%;
+    margin-top:7%;
     margin-bottom: 3%;
 }
 .container > .search > form {
@@ -60,9 +60,9 @@ body{
     margin:0 auto;
     margin-bottom: 2%;
     padding:1%;
-    border:1px solid gray;
-    box-shadow: 1px 1px 1px 1px #757474;
-    border-radius: 60px;
+    border:1px solid lightgray;
+    box-shadow: 1px 1px 1px 1px #aaa7a7;
+    /* border-radius: 60px; */
     border-style: none;
 }
 .container > .search > form > img {
@@ -84,9 +84,86 @@ body{
     margin-bottom: 12%;
     margin:0.2%;
     padding:1%;
-    border-radius: 60px;
+    /* border-radius: 60px; */
     border-style: none;
     color:rgba(68, 67, 67, 0.938);
     font-weight: 600;
     background-color:rgba(228, 224, 224, 0.781);
+}
+
+.container > .langs{
+    display: flex;
+    flex-direction: row;
+    margin-top:1%;
+    margin-bottom:1%;
+    width:100%;
+}
+.container > .langs > ul{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: center;
+}
+
+.container > .langs > ul > li{
+    float:left;
+    margin-left:1%;
+    list-style-type:none;  
+}
+
+.container > .langs > ul > li > a{
+    float:left;
+    color: blue;
+    text-decoration: none;  
+}
+
+.container > .langs > ul > li > a:hover{
+    text-decoration: underline;  
+}
+
+
+
+
+.container > .footer{
+    display:flex;
+    flex-direction: column;
+}
+
+.container > .footer > #country{
+    display: inline-flex;
+    flex-direction: row;
+    width:100%;
+    margin:0;
+    background-color:rgba(211, 211, 211, 0.322);
+}
+.container > .footer > #country > h4{
+    margin-left:0.8%;
+}
+
+.container > .footer > #bottom_menu{
+    display: inline-flex;
+    flex-direction: row;
+    width:100%;
+    background-color:rgba(197, 196, 196, 0.363);
+}
+
+.container > .footer > #bottom_menu > ul{
+    display: inline-block;
+    width:100%;
+
+}
+
+.container > .footer > #bottom_menu > ul > li{
+    float:left;
+    margin-left:1%;
+    list-style-type: none;
+    
+}
+
+.container > .footer > #bottom_menu > ul > li > a{
+    text-decoration: none;
+}
+
+.container > .footer > #bottom_menu > ul > li > a:hover{
+    text-decoration: underline;
 }
