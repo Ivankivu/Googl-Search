@@ -10,6 +10,31 @@ body{
     /* background-color: yellow; */
     
 }
+.container > .topbar{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+.container > .topbar > div{
+    display: flex;
+    flex:4;
+}
+.container > .topbar > ul{
+    display: flex;
+    flex:1;
+    width:100%;
+}
+.container > .topbar > ul > li{
+    display: inline-block;
+    margin-left:5%;
+    list-style-type: none;
+}
+.container > .topbar > ul > li > a{
+   color:rgba(68, 67, 67, 0.938);
+    text-decoration: none;
+    font-size: 120%;
+}
+
 .container > .heading{
     display: flex;
     flex-direction: row;
